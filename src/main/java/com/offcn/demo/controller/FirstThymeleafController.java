@@ -19,4 +19,10 @@ public class FirstThymeleafController {
         model.addAttribute("message","优就业");
         return "index1.html";
     }
+
+    /**
+     * 新增分支*/
+    public void fenzhi(){
+        System.out.println("新增分支");
+    }
 }
